@@ -1,10 +1,10 @@
-# HelixDB Community Conduct Guidelines
+# activedb Community Conduct Guidelines
 
-We have adapted the following conduct guideline from the Ruby Community Conduct Guideline, which was itself based on an early proposed draft of the PostgreSQL CoC, for the HelixDB developers community for safe, productive collaboration. Each HelixDB related community (conference etc.) may pick their own Code of Conduct.
+We have adapted the following conduct guideline from the Ruby Community Conduct Guideline, which was itself based on an early proposed draft of the PostgreSQL CoC, for the activedb developers community for safe, productive collaboration. Each activedb related community (conference etc.) may pick their own Code of Conduct.
 
-This document provides community guidelines for a safe, respectful, productive, and collaborative place for any person who is willing to contribute to the HelixDB community. It applies to all "collaborative space", which is defined as community communications channels (such as mailing lists, submitted patches, commit comments, etc.).
+This document provides community guidelines for a safe, respectful, productive, and collaborative place for any person who is willing to contribute to the activedb community. It applies to all "collaborative space", which is defined as community communications channels (such as mailing lists, submitted patches, commit comments, etc.).
 
-**Important Note:** When platforms like X (Twitter), Discord, Slack, or other social media are used as community channels, these guidelines apply only to discussions and interactions specifically related to the HelixDB project. They do not extend to personal discussions, other projects, or unrelated topics on these platforms, even if conducted by community members.
+**Important Note:** When platforms like X (Twitter), Discord, Slack, or other social media are used as community channels, these guidelines apply only to discussions and interactions specifically related to the activedb project. They do not extend to personal discussions, other projects, or unrelated topics on these platforms, even if conducted by community members.
 
 ## Guidelines
 

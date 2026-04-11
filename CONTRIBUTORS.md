@@ -1,9 +1,9 @@
-# Contributing to HelixDB
+# Contributing to activedb
 
 ## Overview
-HelixDB is a high-performance graph-vector database built in Rust, optimized for RAG and AI applications. It combines graph traversals, vector similarity search, and full-text search in a single database.
+activedb is a high-performance graph-vector database built in Rust, optimized for RAG and AI applications. It combines graph traversals, vector similarity search, and full-text search in a single database.
 
-We welcome contributions from the community! This guide will help you get started with contributing to HelixDB.
+We welcome contributions from the community! This guide will help you get started with contributing to activedb.
 
 ## How to Contribute
 
@@ -11,7 +11,7 @@ We welcome contributions from the community! This guide will help you get starte
 - Check existing [GitHub Issues](https://github.com/HelixDB/helix-db/issues) to avoid duplicates
 - Use a clear, descriptive title
 - Include steps to reproduce for bugs
-- Provide system information (OS, Rust version, HelixDB version)
+- Provide system information (OS, Rust version, activedb version)
 - Add relevant logs or error messages
 
 ### Contribution Workflow
@@ -79,7 +79,7 @@ We welcome contributions from the community! This guide will help you get starte
 - **Core database**: `cargo build -p helix-db`
 - **Container**: `cargo build -p helix-container`
 
-### Running HelixDB Locally
+### Running activedb Locally
 1. Install the CLI (development version):
    ```bash
    cargo install --path helix-cli
@@ -101,7 +101,7 @@ We welcome contributions from the community! This guide will help you get starte
 ### Core Components
 
 #### `/helix-db/` - Main Database Library
-The heart of HelixDB containing all database functionality.
+The heart of activedb containing all database functionality.
 
 - **`helix_engine/`** - Database engine implementation
   - `bm25/` - Full-text search using BM25 algorithm
@@ -152,7 +152,7 @@ The server process that hosts compiled queries and handles requests.
 - `HELIX_PORT` - Server port
 
 #### `/helix-cli/` - Command-Line Interface
-User-facing CLI for managing HelixDB instances and deployments.
+User-facing CLI for managing activedb instances and deployments.
 
 **Directory Structure:**
 ```
@@ -230,7 +230,7 @@ helix-cli/
 ### Supporting Components
 
 #### `/helix-macros/` - Procedural Macros
-Procedural macros for HelixDB including route registration and code generation utilities.
+Procedural macros for activedb including route registration and code generation utilities.
 
 #### `/hql-tests/` - HQL Test Suite
 Test files for the Helix Query Language (HQL).
@@ -241,7 +241,7 @@ Performance benchmarking and metrics collection.
 ## Key Concepts
 
 ### Query Language
-HelixDB uses a custom query language defined in `.hx` files:
+activedb uses a custom query language defined in `.hx` files:
 ```
 QUERY addUser(name: String, age: I64) =>
    user <- AddN<User({name: name, age: age})
@@ -289,7 +289,7 @@ The `clippy_check.sh` script at the repository root runs clippy with project-spe
 
 ### Testing
 
-HelixDB has a comprehensive test suite organized across multiple levels:
+activedb has a comprehensive test suite organized across multiple levels:
 
 #### Test Structure
 
@@ -379,7 +379,7 @@ cargo test --benches
 ### What Reviewers Look For
 - **Correctness**: Does the code work as intended?
 - **Tests**: Are there adequate tests? Do they pass?
-- **Code style**: Does it follow Rust and HelixDB conventions?
+- **Code style**: Does it follow Rust and activedb conventions?
 - **Performance**: Are there obvious performance issues?
 - **Documentation**: Are complex parts explained?
 - **Scope**: Is the PR focused on a single feature/fix?
